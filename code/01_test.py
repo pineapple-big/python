@@ -2,7 +2,7 @@ from selenium import webdriver
 import time
 
 driver = webdriver.Chrome()
-driver.get("www.baidu.com")
+driver.get("https://www.baidu.com/")
 driver.maximize_window()
 driver.implicitly_wait(30)
 
